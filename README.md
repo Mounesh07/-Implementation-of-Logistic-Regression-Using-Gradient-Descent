@@ -108,9 +108,9 @@ def predict(theta, X):
     return (prob>=0.5).astype(int)
     
 np.mean(predict(res.x,X)==y)
+
 */
 ```
-
 ## Output:
 ![image](https://github.com/Mounesh07/-Implementation-of-Logistic-Regression-Using-Gradient-Descent/assets/118343401/1a4b03e0-dc0c-4356-b1f5-b3abef6f6aeb)
 
